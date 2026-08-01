@@ -49,7 +49,7 @@ export default function Hero() {
     2000,
     "Data Analyst",
     2000,
-    "Machine Learning Engineer",
+    "AI & Data Science Student",
     2000,
     "Python Developer",
     2000,
@@ -61,10 +61,7 @@ export default function Hero() {
 />
 
             <p className="mt-8 text-slate-400 text-lg leading-8 max-w-xl">
-              Passionate about Artificial Intelligence,
-              Machine Learning, Data Analytics and
-              building intelligent real-world applications
-              that create measurable business impact.
+              Passionate AI & Data Science student with expertise in Python, SQL, Power BI, and Machine Learning. I enjoy building intelligent applications and solving real-world problems using data.
             </p>
 
             <div className="mt-10 flex flex-wrap gap-6">
@@ -83,7 +80,7 @@ export default function Hero() {
 
   <div className="glass rounded-2xl p-5 text-center">
     <h3 className="text-3xl font-bold text-white">
-  <CountUp end={12} duration={2} />+
+  <CountUp end={3} duration={2} />+
 </h3>
 
     <p className="text-slate-400 mt-2">
@@ -93,7 +90,7 @@ export default function Hero() {
 
   <div className="glass rounded-2xl p-5 text-center">
     <h3 className="text-3xl font-bold text-white">
-  <CountUp end={15} duration={2} />+
+  <CountUp end={12} duration={2} />+
 </h3>
 
     <p className="text-slate-400 mt-2">
@@ -103,7 +100,7 @@ export default function Hero() {
 
   <div className="glass rounded-2xl p-5 text-center">
     <h3 className="text-3xl font-bold text-white">
-  <CountUp end={20} duration={2} />+
+  <CountUp end={10} duration={2} />+
 </h3>
 
     <p className="text-slate-400 mt-2">

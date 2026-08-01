@@ -15,8 +15,8 @@ const projects = [
       "AI-powered system that detects accident hotspot zones using the DBSCAN clustering algorithm and visualizes them on an interactive map.",
     image: "/images/projects/project1.jpg",
     tech: ["Python", "DBSCAN", "Pandas", "Folium"],
-    github: "https://github.com/your-github-username",
-    demo: "#",
+    github: "https://github.com/goku744/sivaraj-portfolio",
+    demo: "https://sivaraj-portfolio-kappa.vercel.app",
   },
   {
     title: "EnglishMaster AI",
@@ -24,8 +24,8 @@ const projects = [
       "AI-powered desktop application for learning English with grammar correction, vocabulary practice, and AI chat using the Gemini API.",
     image: "/images/projects/project2.jpg",
     tech: ["Python", "CustomTkinter", "Gemini API"],
-    github: "https://github.com/your-github-username",
-    demo: "#",
+    github: "https://github.com/goku744/sivaraj-portfolio",
+demo: "https://sivaraj-portfolio-kappa.vercel.app",
   },
   {
     title: "Sales Analytics Dashboard",
@@ -33,8 +33,8 @@ const projects = [
       "Interactive Power BI dashboard for sales analysis, KPI tracking, and business insights.",
     image: "/images/projects/project3.jpg",
     tech: ["Power BI", "SQL", "Excel"],
-    github: "https://github.com/your-github-username",
-    demo: "#",
+    github: "https://github.com/goku744/sivaraj-portfolio",
+demo: "https://sivaraj-portfolio-kappa.vercel.app",
   },
 ];
 
