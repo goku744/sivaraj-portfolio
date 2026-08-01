@@ -65,14 +65,22 @@ export default function Hero() {
             </p>
 
             <div className="mt-10 flex flex-wrap gap-6">
-              <Button>
-                View Projects
-              </Button>
+  <Button
+  href="#projects"
+  target="_self"
+>
+  View Projects
+</Button>
 
-              <Button variant="outline">
-                Download Resume
-              </Button>
-            </div>
+  <Button
+  href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  variant="outline"
+>
+  Download Resume
+</Button>
+</div>
 
             {/* Quick Stats */}
 
