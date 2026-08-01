@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import CountUp from "react-countup";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 import Container from "@/components/common/Container";
 import Button from "@/components/common/Button";
@@ -80,6 +81,25 @@ export default function Hero() {
 >
   Download Resume
 </Button>
+</div>
+<div className="mt-8 flex gap-6">
+
+  <a
+    href="https://github.com/goku744"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-slate-400 hover:text-cyan-400 text-3xl"
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="mailto:sivasivaraj46186@gmail.com"
+    className="text-slate-400 hover:text-cyan-400 text-3xl"
+  >
+    <FaEnvelope />
+  </a>
+
 </div>
 
             {/* Quick Stats */}
