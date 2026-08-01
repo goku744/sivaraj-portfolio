@@ -58,7 +58,7 @@ export default function Hero() {
   wrapper="h2"
   speed={40}
   repeat={Infinity}
-  className="mt-6 text-2xl md:text-3xl font-bold text-cyan-300"
+  className="mt-6 h-12 text-2xl md:text-3xl font-bold text-cyan-300"
 />
 
             <p className="mt-8 text-slate-400 text-lg leading-8 max-w-xl">
@@ -82,20 +82,29 @@ export default function Hero() {
   Download Resume
 </Button>
 </div>
-<div className="mt-8 flex gap-6">
+<div className="mt-8 flex items-center gap-5 flex-wrap">
 
   <a
     href="https://github.com/goku744"
     target="_blank"
     rel="noopener noreferrer"
-    className="text-slate-400 hover:text-cyan-400 text-3xl"
+    className="text-slate-400 hover:text-cyan-400 text-2xl transition"
   >
     <FaGithub />
   </a>
 
   <a
+    href="https://www.linkedin.com/in/sivaraj-s-a58596339"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-slate-400 hover:text-cyan-400 text-2xl transition"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
     href="mailto:sivasivaraj46186@gmail.com"
-    className="text-slate-400 hover:text-cyan-400 text-3xl"
+    className="text-slate-400 hover:text-cyan-400 text-2xl transition"
   >
     <FaEnvelope />
   </a>
